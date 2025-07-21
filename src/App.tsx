@@ -355,7 +355,7 @@ const HeroSection: React.FC<{ onNavigate: (section: string) => void }> = ({ onNa
             muted
             playsInline
           >
-            <source src="https://res.cloudinary.com/dofhmymb0/video/upload/v1753133844/drink_i3kg6y.mp4" type="video/mp4" />
+            <source src="https://res.cloudinary.com/dofhmymb0/video/upload/v1753137841/barman_svdc2x.mp4" type="video/mp4" />
           </video>
           <div className="hero-split-overlay"></div>
         </div>
@@ -400,10 +400,10 @@ const HeroSection: React.FC<{ onNavigate: (section: string) => void }> = ({ onNa
           {/* Loga usług */}
           <div className="hero-services-logos">
             <div className="hero-service-logo">
-              <img src="/barman-logo.png" alt="Barman Karkonoski" className="service-logo-img" />
+              <img src="barman-logo.png" alt="Barman Karkonoski" className="service-logo-img" />
             </div>
             <div className="hero-service-logo">
-              <img src="/logo-ice.png" alt="Fabryka Lodu" className="service-logo-img" />
+              <img src="testice.png" alt="Fabryka Lodu" className="service-logo-img" />
             </div>
           </div>
           
@@ -489,14 +489,12 @@ const ServicesSection: React.FC = () => {
           duration: '8 godzin',
           features: ['20+ koktajli', 'Pełna obsługa', 'Bez limitu osób', 'Autorskie drinki']
         }
-      ],
+      ], 
       gallery: [
-        '/gallery/barman1.jpg',
-        '/gallery/barman2.jpg',
-        '/gallery/barman3.jpg',
-        '/gallery/barman4.jpg',
-        '/gallery/barman5.jpg',
-        '/gallery/barman6.jpg'
+        'src/assets/images/barman/barman1.webp',
+        'src/assets/images/barman/barman2.webp',
+        'src/assets/images/barman/barman3.webp',
+        'src/assets/images/barman/barman4.webp'
       ]
     },
     {
@@ -536,12 +534,12 @@ const ServicesSection: React.FC = () => {
         }
       ],
       gallery: [
-        '/src/assets/images/barista/barista2.webp',
-        '/src/assets/images/barista/barista2.webp',
-        '/src/assets/images/barista/barista3.webp',
-        '/src/assets/images/barista/barista2.webp',
-        '/src/assets/images/barista/barista2.webp',
-        '/src/assets/images/barista/barista2.webp'
+        'src/assets/images/barista/barista1.jpg',
+        'src/assets/images/barista/barista2.webp',
+        'src/assets/images/barista/barista3.webp',
+        'src/assets/images/barista/barista2.webp',
+        'src/assets/images/barista/barista2.webp',
+        'src/assets/images/barista/barista2.webp'
       ]
     },
     {
@@ -581,11 +579,11 @@ const ServicesSection: React.FC = () => {
         }
       ],
       gallery: [
-        '/src/assets/images/ice/ice2.jpg',
-        '/gallery/ice2.jpg',
-        '/gallery/ice3.jpg',
-        '/gallery/ice4.jpg',
-        '/gallery/ice5.jpg',
+        'src/assets/images/ice/ice3.jpg',
+        'src/assets/images/ice/ice2.jpg',
+        'src/assets/images/ice/ice3.jpg',
+        'src/assets/images/ice/ice1.jpg',
+        'src/assets/images/ice/ice2.jpg',  
         '/gallery/ice6.jpg'
       ]
     }
@@ -772,7 +770,7 @@ const AboutSection: React.FC = () => {
           
           <AnimatedSection className="about-image">
             <img 
-              src="/barman.jpg" 
+              src="barman.jpg" 
               alt="Barman Karkonoski w akcji" 
               className="about-image-photo"
             />
@@ -849,7 +847,7 @@ const Footer: React.FC = () => {
         <div className="footer-content">
           <div className="footer-brand">
             <h3>Patryk Wojciechowski</h3>
-            <p>Barman • Barista • Fabryka Lodu</p>
+            <p>Barman Karkonoski • Fabryka Lodu</p>
           </div>
           <div className="footer-text">
             <p>&copy; 2025 Patryk Wojciechowski. Wszystkie prawa zastrzeżone.</p>
