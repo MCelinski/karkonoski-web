@@ -403,7 +403,7 @@ const HeroSection: React.FC<{ onNavigate: (section: string) => void }> = ({ onNa
               <img src="barman-logo.png" alt="Barman Karkonoski" className="service-logo-img" />
             </div>
             <div className="hero-service-logo">
-              <img src="testice.png" alt="Fabryka Lodu" className="service-logo-img" />
+              <img src="logo-ice.png" alt="Fabryka Lodu" className="service-logo-img" />
             </div>
           </div>
           
