@@ -491,10 +491,10 @@ const ServicesSection: React.FC = () => {
         }
       ], 
       gallery: [
-        'src/assets/images/barman/barman1.webp',
-        'src/assets/images/barman/barman2.webp',
-        'src/assets/images/barman/barman3.webp',
-        'src/assets/images/barman/barman4.webp'
+        'barman/barman1.webp',
+        'barman/barman2.webp',
+        'barman/barman3.webp',
+        'barman/barman4.webp'
       ]
     },
     {
@@ -534,12 +534,12 @@ const ServicesSection: React.FC = () => {
         }
       ],
       gallery: [
-        'src/assets/images/barista/barista1.jpg',
-        'src/assets/images/barista/barista2.webp',
-        'src/assets/images/barista/barista3.webp',
-        'src/assets/images/barista/barista2.webp',
-        'src/assets/images/barista/barista2.webp',
-        'src/assets/images/barista/barista2.webp'
+        'barista/barista1.jpg',
+        'barista/barista2.webp',
+        'barista/barista3.webp',
+        'barista/barista2.webp',
+        'barista/barista2.webp',
+        'barista/barista2.webp'
       ]
     },
     {
@@ -579,11 +579,11 @@ const ServicesSection: React.FC = () => {
         }
       ],
       gallery: [
-        'src/assets/images/ice/ice3.jpg',
-        'src/assets/images/ice/ice2.jpg',
-        'src/assets/images/ice/ice3.jpg',
-        'src/assets/images/ice/ice1.jpg',
-        'src/assets/images/ice/ice2.jpg',  
+        'ice/ice3.jpg',
+        'ice/ice2.jpg',
+        'ice/ice3.jpg',
+        'ice/ice1.jpg',
+        'ice/ice2.jpg',  
         '/gallery/ice6.jpg'
       ]
     }
